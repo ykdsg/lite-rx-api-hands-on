@@ -16,12 +16,12 @@
 
 package io.pivotal.literx;
 
-import java.time.Duration;
-
 import io.pivotal.literx.domain.User;
 import org.junit.Test;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+
+import java.time.Duration;
 
 /**
  * Learn how to use StepVerifier to test Mono, Flux or any other kind of Reactive Streams Publisher.
